@@ -89,16 +89,12 @@ app.get("/api/notes/:note", function(req, res) {
     }); 
   });
 
-//HTML Routes
-// =============================================================
 
 // GET /notes - Should return the notes.html file. 
 app.get("/notes", (req, res) => res.sendFile(__dirname + "/public/notes.html"));
 // GET * - Should return the index.html file 
 app.get("*", (req, res) => res.sendFile(__dirname + "/public/index.html"));
 
-// Starts the server to begin listening
-// =============================================================
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
