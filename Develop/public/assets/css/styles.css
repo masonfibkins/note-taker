@@ -9,12 +9,17 @@ html, body {
     font-weight: 100;
   }
 
-
   .note-textarea{
     font-weight: 100;
   }
 
   .navbar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+  }
+
+  a{
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 28px;
@@ -27,7 +32,7 @@ html, body {
   .icons i {
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 1.5rem;
+    font-size: 28px;
     cursor: pointer;
   }
   
@@ -52,7 +57,7 @@ html, body {
   }
   
   .note-title:read-only, .note-textarea:read-only {
-    color: #757575;
+    color: #7ed3be;
   }
   
   .list-container .card {
@@ -84,6 +89,8 @@ html, body {
     border-right: none;
     padding: 20px;
     cursor: pointer;
+    background-color: transparent;
+    color:#7ed3be;
   }
 
   .toggle{
