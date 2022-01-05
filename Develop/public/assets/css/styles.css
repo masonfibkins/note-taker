@@ -5,9 +5,6 @@ html, body {
     font-family: 'Inter', sans-serif;
   }
 
-  .all{
-    font-family: 'Inter', sans-serif;
-  }
 
   h2{
     font-weight: 100;
@@ -41,12 +38,14 @@ html, body {
   }
   
   .note-textarea, .note-title {
+    font-family: 'Inter', sans-serif;
     width: 100%;
     outline: none;
     border: none;
   }
   
   .note-textarea {
+    font-family: 'Inter', sans-serif;
     color: black;
     resize: none;
     height: calc(100% - 63px);
@@ -54,6 +53,7 @@ html, body {
   }
   
   .note-title {
+    font-family: 'Inter', sans-serif;
     color: black;
     height: 50px;
     margin-top: 13px;
