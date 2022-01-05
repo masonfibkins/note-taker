@@ -61,6 +61,7 @@ html, body {
   }
   
   .note-title:read-only, .note-textarea:read-only {
+    font-family: 'Inter', sans-serif;
     color: #7ed3be;
   }
   
