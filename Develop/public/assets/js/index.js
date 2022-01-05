@@ -149,3 +149,12 @@ $noteText.on("keyup", handleRenderSaveBtn);
 
 // Gets and renders the initial list of notes
 getAndRenderNotes();
+
+document.getElementById("toggle").addEventListener("click", function(){
+  document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+  document.getElementsByTagName('textarea')[0].classList.toggle("dark-theme");
+  document.getElementsByClassName('note-title')[0].classList.toggle("dark-theme");
+});
+
+
+
